@@ -1,0 +1,19 @@
+html, body {
+  box-sizing: border-box;
+  background-color: #d1d1d1;
+}
+
+.header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  color: #000;
+}
+
+.header h1 {
+  margin: 10px auto;
+}

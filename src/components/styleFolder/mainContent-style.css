@@ -1,0 +1,86 @@
+.mainContent {
+  margin: 10px auto;
+}
+
+.mainContent form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: capitalize; 
+}
+
+.mainContent form label {
+ margin-top: 10px;
+ padding-left: 10px;
+ font-family: 'Roboto', sans-serif;
+ font-weight: bold;
+}
+
+.mainContent form input {
+  border: none;
+  font-family: 'PT Sans', sans-serif;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+  background-color: #d1d1d1;
+}
+
+.mainContent form button {
+  font-family: 'PT Sans', sans-serif;
+  background-color: coral;
+  margin-top: 10px;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 8px;
+  border: none;
+  width: 80px;
+  align-self: center;
+}
+
+.container .row .dataTable {
+  margin: 20px auto;
+}
+
+.container .row .dataTable table {
+  margin: 0 auto;
+  background-color: #fff;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.container .row .dataTable table thead tr th {
+  background-color: #36304a;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+/* .container .row .dataTable table tbody tr {
+  border: 1px solid black;
+} */
+
+.container .row .dataTable table tbody .bookName {
+  text-align: left;
+}
+
+.container .row .dataTable table tbody tr td {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px 20px 20px 8px;
+}
+
+.container .row .dataTable table tbody tr .deleteBtn {
+  background-color: #36304a;
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+}
+
+.container .row .dataTable table tbody tr:hover {
+  background-color: coral;
+}

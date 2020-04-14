@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+}
+
+.container .row .sideMenu {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.container .row .sideMenu button {
+  margin-top: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 5px;
+  background-color: #36304a;
+  color: #fff;
+  font-weight: 600;
+}
+
+.container .row .formDiv {
+  margin: 0 auto;
+  width: 100%
+} 
